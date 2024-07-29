@@ -70,21 +70,16 @@ p{
     justify-content: center;
     align-items: center;
     background-color: rgb(221, 221, 221);
-    width: 200px;
+    width: 220px;
     border-radius: 8px;
     padding: 19px 26px;
     gap: 1rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
     margin-top: -3rem;
     position: absolute;
     
 }
-#star{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: red;
-    border-radius: 50%;
-}
+
 .rating h3{
     color: rgb(28, 28, 28);
     font-size: 30px;
