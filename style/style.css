@@ -63,7 +63,6 @@ p{
 }
 .header-img{
     margin-bottom: -61px;
-    position: relative;
 }
 
 .rating{
@@ -73,11 +72,9 @@ p{
     width: 220px;
     border-radius: 8px;
     padding: 19px 26px;
-    gap: 1rem;
     margin-left: 4rem;
-    margin-top: -3rem;
-    position: absolute;
-    
+    margin-top: -3rem; 
+    position: relative;
 }
 
 .rating h3{
@@ -101,7 +98,6 @@ p{
 .feature-content{
     justify-content: space-around;
     gap: 8rem;
-
 }
 #feature-p{
     width: 200px;
@@ -210,8 +206,6 @@ margin-top: 2rem;
     padding: .5rem;
     border: none;
     border-bottom: 2px solid rgb(73, 73, 73);
-    text-decoration: none;
-    
 }
 .footer-content P:hover{
     cursor: pointer;
@@ -229,4 +223,60 @@ margin-top: 2rem;
 #copy{
     text-align: center;
     margin: 5rem auto;
+}
+
+@media screen and (max-width:576px){
+    .container{
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+    .header-img{
+        width: 100%;
+    }
+    .event-title,
+    .feature-title,
+    .great-tea-content{
+        width: 95%;
+        padding: 0;
+    }
+    .feature-content{
+        gap: 4rem;
+    }
+    .great-tea-img-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .great-tea-img-box img{
+    }
+    .gradient-box-1,
+    .gradient-box-2{
+        display: none;
+    }
+    .ready-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .ready-container input{
+        border:none;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .ready-container button{
+        border:none;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    .footer-btn{
+        width: auto;
+    }
 }
