@@ -139,3 +139,94 @@ margin-top: 2rem;
 .great-tea-text{
     width: 70%;
 }
+
+/* event section start */
+.event-container{
+    margin-top: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.event-title{
+    width: 80%;
+}
+.event-content{
+    justify-content: space-around;
+    gap: 8rem;
+    text-align: start;
+}
+.event-products a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+.event-products p{
+    margin: 1rem 0;
+}
+.event-products h4{
+    margin-top: 1rem;
+    font-weight: 800;
+}
+#event-p{
+    width: 200px;
+    margin-top: 1rem;
+}
+/* event section end*/
+
+.ready-container{
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+}
+.ready-container input{
+    border:none;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* footer section star */
+.footer-container{
+    justify-content: space-between;
+}
+.footer-content P{
+    margin-top: 1rem;
+}
+.footer-content h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    width: 216px;
+}
+.footer-content h3{
+    font-size: 1.2rem;
+    font-weight: 800;
+
+}
+.footer-content input{
+    padding: .5rem;
+    border: none;
+    border-bottom: 2px solid rgb(73, 73, 73);
+    text-decoration: none;
+    
+}
+.footer-content P:hover{
+    cursor: pointer;
+}
+.footer-btn{
+    width: 305px;
+}
+.footer-btn button{
+    border-radius: 50%;
+    font-size: .8rem;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+#copy{
+    text-align: center;
+    margin: 5rem auto;
+}
