@@ -106,3 +106,36 @@ p{
 #feature-p{
     width: 200px;
 }
+.great-tea-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.great-tea-content{
+    width: 50%;
+    padding: 2rem;
+}
+.great-tea-content h2{
+margin-bottom: 1rem;
+}
+.great-tea-content h5{
+margin-bottom: .5rem;
+margin-top: 2rem;
+}
+.great-tea-img-box{
+    width: 50%;
+    margin: 0
+}
+.gradient-box-1,
+.gradient-box-2{
+    margin-top: 2rem;
+    width: 13rem;
+    height: 8rem;
+    background: linear-gradient(270.00deg, rgba(255, 0, 0, 0.178) 0%,rgba(255, 136, 56, 0.5) 100%);
+    border-radius: 18px;
+}
+.gradient-box-2{
+    background: linear-gradient(90.00deg, rgb(217, 217, 217),rgba(255, 255, 255, 0) 100%);
+}
+.great-tea-text{
+    width: 70%;
+}
