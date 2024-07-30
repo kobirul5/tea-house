@@ -86,3 +86,23 @@ p{
     font-weight: 800;
 }
 /* header section end hare */
+
+/* Our Feature Products section start */
+.feature-container{
+    margin-top: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.feature-title{
+    width: 80%;
+}
+.feature-content{
+    justify-content: space-around;
+    gap: 8rem;
+
+}
+#feature-p{
+    width: 200px;
+}
