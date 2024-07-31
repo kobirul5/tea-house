@@ -106,6 +106,7 @@ p{
     justify-content: space-between;
     align-items: center;
 }
+
 .great-tea-content{
     width: 50%;
     padding: 2rem;
@@ -121,6 +122,7 @@ margin-top: 2rem;
     width: 50%;
     margin: 0
 }
+
 .gradient-box-1,
 .gradient-box-2{
     margin-top: 2rem;
@@ -278,5 +280,29 @@ margin-top: 2rem;
     }
     .footer-btn{
         width: auto;
+    }
+}
+
+/* responsive for tab */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .header-container,
+    .event-content,
+    .great-tea-container{
+        flex-direction: column;
+    }
+    .feature-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .great-tea-img-box{
+        width: 100%;
+    }
+    .great-tea-img-box,
+    .great-tea-text{
+     width: 95%;
+
+    }
+    #feature-p{
+        width: 90%;
     }
 }
